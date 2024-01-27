@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Notification;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Group;
 
-#[Group('authentication')]
+#[Group('user')]
 #[CoversClass(PasswordUpdatedNotification::class)]
 final class PasswordUpdatedNotificationTest extends UnitTestCase
 {
